@@ -22,7 +22,7 @@ repository               : "tanzelin430/tanzelin430.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Zelin Tan"
   pronouns         : # example: "she/her"
   bio              : "TODO: 一句话介绍 (e.g. 'PhD student at XYZ University, working on LLM reasoning.')"
