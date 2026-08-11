@@ -1,0 +1,96 @@
+.writing-intro {
+  max-width: 38rem;
+  margin: 0 0 1.75rem;
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+}
+
+.writing-list {
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--global-border-color);
+}
+
+.writing-item {
+  margin: 0;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.archive .writing-item__link {
+  display: grid;
+  grid-template-columns: 2.75rem minmax(0, 1fr) 1.5rem;
+  gap: 0.75rem;
+  align-items: start;
+  padding: 1.35rem 0;
+  color: var(--global-text-color);
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.writing-item__index,
+.writing-item__meta {
+  color: var(--global-text-color-light);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.writing-item__body {
+  min-width: 0;
+}
+
+.writing-item__meta,
+.writing-item__title,
+.writing-item__summary {
+  display: block;
+}
+
+.writing-item__title {
+  margin-top: 0.32rem;
+  font-size: 1.06rem;
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.writing-item__summary {
+  max-width: 42rem;
+  margin-top: 0.42rem;
+  color: var(--global-text-color-light);
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+
+.writing-item__arrow {
+  color: var(--global-text-color-light);
+  font-size: 1rem;
+  line-height: 1.4;
+  transform: translate(0, 0);
+  transition: color 160ms ease, transform 160ms ease;
+}
+
+.archive .writing-item__link:hover,
+.archive .writing-item__link:focus-visible {
+  color: var(--global-link-color-hover);
+  text-decoration: none;
+}
+
+.writing-item__link:hover .writing-item__arrow,
+.writing-item__link:focus-visible .writing-item__arrow {
+  color: var(--global-link-color-hover);
+  transform: translate(0.15rem, -0.15rem);
+}
+
+@media (max-width: 480px) {
+  .archive .writing-item__link {
+    grid-template-columns: 2rem minmax(0, 1fr) 1.25rem;
+    gap: 0.5rem;
+    padding: 1.15rem 0;
+  }
+
+  .writing-item__summary {
+    font-size: 0.84rem;
+  }
+}

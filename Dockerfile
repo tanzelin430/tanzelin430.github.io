@@ -8,9 +8,11 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 
-# Create a non-root user with UID 1000
-RUN groupadd -g 1000 vscode && \
-    useradd -m -u 1000 -g vscode vscode
+# Create a non-root user; UID/GID overridable via build args for host-bind-mount parity
+ARG USER_UID=1000
+ARG USER_GID=1000
+RUN groupadd -g ${USER_GID} vscode && \
+    useradd -m -u ${USER_UID} -g vscode vscode
 
 # Set the working directory
 WORKDIR /usr/src/app

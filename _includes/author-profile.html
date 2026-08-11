@@ -21,7 +21,7 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <button class="btn btn--inverse">Links</button>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
@@ -169,8 +169,11 @@
         <li><a href="https://www.youtube.com/@{{ author.youtube }}"><i class="fab fa-fw fa-youtube icon-pad-right" aria-hidden="true"></i>YouTube</a></li>
       {% endif %}
       {% if author.zhihu %}
-      <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
-      {% endif %}      
+      <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>{{ author.zhihu_label | default: "Zhihu" }}</a></li>
+      {% endif %}
+      {% if author.xiaohongshu %}
+      <li><a href="https://www.xiaohongshu.com/user/profile/{{ author.xiaohongshu }}"><i class="fas fa-fw fa-book icon-pad-right" aria-hidden="true"></i>{{ author.xiaohongshu_label | default: "Xiaohongshu" }}</a></li>
+      {% endif %}
     </ul>
   </div>
 </div>

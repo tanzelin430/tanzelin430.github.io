@@ -1,19 +1,26 @@
 ---
 layout: archive
 permalink: /year-archive/
-title: "Blog posts"
+title: "Blog Posts"
 author_profile: true
 redirect_from:
   - /wordpress/blog-posts/
 ---
 
-{% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
-{% endfor %}
+<p class="writing-intro">Selected writing and research notes published elsewhere.</p>
+
+<ol class="writing-list">
+  {% for item in site.data.writing %}
+    <li class="writing-item">
+      <a class="writing-item__link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+        <span class="writing-item__index" aria-hidden="true">0{{ forloop.index }}</span>
+        <span class="writing-item__body">
+          <span class="writing-item__meta">{{ item.platform }} <span aria-hidden="true">·</span> {{ item.topic }}</span>
+          <span class="writing-item__title">{{ item.title }}</span>
+          <span class="writing-item__summary">{{ item.summary }}</span>
+        </span>
+        <span class="writing-item__arrow" aria-hidden="true">↗</span>
+      </a>
+    </li>
+  {% endfor %}
+</ol>

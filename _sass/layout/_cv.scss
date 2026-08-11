@@ -1,0 +1,16 @@
+.cv-intro {
+  margin-bottom: 1rem;
+  color: var(--global-text-color-light);
+}
+
+.cv-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0 0 1.25rem;
+}
+
+.archive .cv-actions .btn,
+.archive .cv-actions .btn:hover {
+  text-decoration: none;
+}

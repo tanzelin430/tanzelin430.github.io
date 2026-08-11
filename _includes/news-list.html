@@ -1,0 +1,29 @@
+<div class="news-feed" aria-label="News and updates">
+  {% for item in site.data.news %}
+    <article class="news-entry{% if item.image and item.image != "" %} news-entry--with-media{% else %} news-entry--text-only{% endif %}">
+      <time class="news-entry__date" datetime="{{ item.datetime }}">{{ item.date }}</time>
+
+      <div class="news-entry__body">
+        <div class="news-entry__copy">{{ item.description | markdownify }}</div>
+
+        {% if item.resources %}
+          <nav class="news-entry__resources" aria-label="Resources for {{ item.date }} update">
+            {% for resource in item.resources %}
+              <a class="news-entry__resource" href="{{ resource.url }}">{{ resource.label }}</a>
+            {% endfor %}
+          </nav>
+        {% endif %}
+      </div>
+
+      {% if item.image and item.image != "" %}
+        <a class="news-entry__media{% if item.image_fit == "contain" %} news-entry__media--contain{% endif %}"
+           href="{{ item.image | relative_url }}"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="View {{ item.image_alt | escape }}">
+          <img src="{{ item.image | relative_url }}" alt="{{ item.image_alt | escape }}" loading="lazy" decoding="async">
+        </a>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>

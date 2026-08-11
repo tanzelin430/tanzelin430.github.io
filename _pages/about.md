@@ -1,28 +1,16 @@
 ---
 permalink: /
-title: "About me"
+title: "About"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
+Hello! I'm a PhD student at the [University of Science and Technology of China (USTC)](https://en.ustc.edu.cn/), co-advised by [Dr. Lei Bai](http://leibai.site/) and [Prof. Wengang Zhou](http://staff.ustc.edu.cn/~zhwg/index.html). My research interests are **LLM Post-training**, **Agent** and **AI Infra**. I earned my BSc in Computer Science from USTC, and was a Master's student there before transferring to the PhD in Fall 2025. I am currently interning at Shanghai AI Lab, mentored by [Dr. Chen Zhang](https://scholar.google.com/citations?user=b9fyEp8AAAAJ&hl=zh-CN) and [Dr. Shuyue Hu](https://shuyuehu.github.io/index.html).
 
-<!-- TODO: 用 2-3 段话介绍自己,参考结构: -->
-<!-- 第1段: 我是谁 + 在哪里 + 在做什么 (e.g. "I am a PhD student at XYZ, advised by Prof. ABC. My research focuses on ...") -->
-<!-- 第2段: 研究兴趣的展开 / 之前的经历 -->
-<!-- 第3段: 我感兴趣的问题 / 在找什么样的合作 / 联系方式 -->
-
-I am [your role] at [your institution]. My research interests lie in [topic]. Previously, I [previous experience].
-
-Currently I am working on [current project / topic]. I am broadly interested in [broader interests]. Feel free to reach out via [email](mailto:tanzl@mail.ustc.edu.cn).
+Feel free to reach out via [email](mailto:tanzl@mail.ustc.edu.cn). You can also find me on [Zhihu](https://www.zhihu.com/people/tan-zong-tangent) and [Xiaohongshu](https://www.xiaohongshu.com/user/profile/644b4225000000001f031d83).
 
 News
-======
-- **2026-04**: TODO 最新一条 news.
-- **2026-XX**: TODO 例如某篇论文被某会议接收 / 加入某实验室 / 实习开始.
+====
 
-Research interests
-======
-- TODO: 方向 1 (一句话)
-- TODO: 方向 2
-- TODO: 方向 3
+{% include news-list.html %}

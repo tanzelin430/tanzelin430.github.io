@@ -1,0 +1,124 @@
+# Put future images under /images/news/ and set `image`, for example:
+# image: "/images/news/skt.jpg"
+# Leave `image` blank for a text-only entry.
+
+- date: "2026.08"
+  datetime: "2026-08"
+  image: "/images/news/skt-overview.png"
+  image_fit: "contain"
+  image_alt: "SKT overview"
+  description: >-
+    We released [SKT](https://arxiv.org/abs/2608.02287), a verified synthetic-data pipeline for training language-model agents to identify, apply, and coordinate reusable skills at scale.
+  resources:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2608.02287"
+    - label: "HF Dataset"
+      url: "https://huggingface.co/datasets/Artemis0430/skilleval-v1"
+
+- date: "2026.06"
+  datetime: "2026-06"
+  image: "/images/news/agents-a1-overview.png"
+  image_fit: "contain"
+  image_alt: "Agents-A1 model overview"
+  description: >-
+    We released [Agents-A1](https://huggingface.co/InternScience/Agents-A1), an open 35B MoE agent model that scales the interaction horizon for long-horizon search, engineering, and scientific reasoning.
+  resources:
+    - label: "HF Model"
+      url: "https://huggingface.co/InternScience/Agents-A1"
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2606.30616"
+    - label: "Code"
+      url: "https://github.com/InternScience/Agents-A1"
+
+- date: "2026.03"
+  datetime: "2026-03"
+  image: "/images/news/papo-method-overview.png"
+  image_fit: "contain"
+  image_alt: "PAPO method overview"
+  description: >-
+    We released [PAPO](https://arxiv.org/abs/2603.26535), a reinforcement-learning method that integrates rubric-based process supervision through decoupled advantage normalization.
+  resources:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2603.26535"
+    - label: "Code"
+      url: "https://github.com/tanzelin430/PAPO"
+
+- date: "2026.03"
+  datetime: "2026-03"
+  image: "/images/news/agentpanel-home.png"
+  image_alt: "AgentPanel interface"
+  description: >-
+    We launched [AgentPanel](https://agentpanel.cc/), a multi-agent forum for human-AI collaboration in exploring scientific questions.
+  resources:
+    - label: "Project"
+      url: "https://agentpanel.cc/"
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2608.03283"
+
+- date: "2026.02"
+  datetime: "2026-02"
+  image: "/images/news/skillsbench-domains.png"
+  image_fit: "contain"
+  image_alt: "SkillsBench benchmark overview"
+  description: >-
+    We released [SkillsBench](https://www.skillsbench.ai/), a benchmark for measuring how well Agent Skills work across diverse, expertise-heavy tasks.
+  resources:
+    - label: "Project"
+      url: "https://www.skillsbench.ai/"
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2602.12670"
+    - label: "Code"
+      url: "https://github.com/benchflow-ai/skillsbench"
+
+- date: "2025.11"
+  datetime: "2025-11"
+  image: ""
+  image_alt: "Shanghai AI Laboratory"
+  description: >-
+    I joined [**Shanghai AI Laboratory**](https://www.shlab.org.cn/) as a research intern, mentored by [**Dr. Chen Zhang**](https://scholar.google.com/citations?user=b9fyEp8AAAAJ&hl=en) and [**Dr. Shuyue Hu**](https://shuyuehu.github.io/index.html).
+
+- date: "2025.09"
+  datetime: "2025-09"
+  image: "/images/news/scaling-law.png"
+  image_fit: "contain"
+  image_alt: "Inter-model prediction fitted on base-model compute for LLM reinforcement learning scaling laws"
+  description: >-
+    We released [**Scaling Laws for LLM Reinforcement Learning**](https://arxiv.org/abs/2509.25300). Accepted to the [**ACL 2026 Main Conference**](https://aclanthology.org/2026.acl-long.1444/).
+  resources:
+    - label: "Paper"
+      url: "https://aclanthology.org/2026.acl-long.1444/"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2509.25300"
+    - label: "Code"
+      url: "https://github.com/tanzelin430/The-Scaling-Law-for-Reinforcement-Learning"
+
+- date: "2025.05"
+  datetime: "2025-05"
+  image: ""
+  image_alt: ""
+  description: >-
+    I transferred from the Master’s program into the PhD program at [**USTC**](https://en.ustc.edu.cn/) and began my doctoral studies, advised by [**Dr. Lei Bai**](http://leibai.site/).
+
+- date: "2024.06"
+  datetime: "2024-06"
+  image: ""
+  image_alt: "Meituan internship"
+  description: >-
+    I joined [Meituan](https://about.meituan.com/) as an AI Infra intern, mentored by [Yineng Zhang](https://zhyncs.com/) and [Ke Bao](https://github.com/ispobock).
+
+- date: "2024.05"
+  datetime: "2024-05"
+  image: ""
+  image_alt: "libsmctrl GPU compute partitioning"
+  description: >-
+    We released [libsmctrl](https://github.com/tanzelin430/libsmctrl), a runtime library for SM-level GPU compute partitioning and operator isolation.
+  resources:
+    - label: "Code"
+      url: "https://github.com/tanzelin430/libsmctrl"
+
+- date: "2023.12"
+  datetime: "2023-12"
+  image: ""
+  image_alt: "Tencent internship"
+  description: >-
+    I joined [Tencent](https://www.tencent.com/en-us/) as an AI Infra intern working on LLM inference acceleration, mentored by [Hande Dong](https://donghande.github.io/).
