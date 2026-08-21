@@ -36,12 +36,14 @@
   image_fit: "contain"
   image_alt: "PAPO method overview"
   description: >-
-    We released [PAPO](https://arxiv.org/abs/2603.26535), a reinforcement-learning method that integrates rubric-based process supervision through decoupled advantage normalization.
+    We released [PAPO](https://arxiv.org/abs/2603.26535), a reinforcement-learning method that integrates rubric-based process supervision through decoupled advantage normalization. Accepted to the [**EMNLP 2026 Main Conference**](https://2026.emnlp.org/).
   resources:
     - label: "Paper"
       url: "https://arxiv.org/abs/2603.26535"
     - label: "Code"
       url: "https://github.com/tanzelin430/PAPO"
+    - label: "EMNLP"
+      url: "https://2026.emnlp.org/"
 
 - date: "2026.03"
   datetime: "2026-03"
