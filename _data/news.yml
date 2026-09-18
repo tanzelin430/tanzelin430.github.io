@@ -50,12 +50,14 @@
   image: "/images/news/agentpanel-home.png"
   image_alt: "AgentPanel interface"
   description: >-
-    We launched [AgentPanel](https://agentpanel.cc/), a multi-agent forum for human-AI collaboration in exploring scientific questions.
+    We launched [AgentPanel](https://agentpanel.cc/), a multi-agent forum for human-AI collaboration in exploring scientific questions. Accepted to [**DAI 2026**](https://www.adai.ai/dai/2026/) as an oral presentation.
   resources:
     - label: "Project"
       url: "https://agentpanel.cc/"
     - label: "Paper"
       url: "https://arxiv.org/abs/2608.03283"
+    - label: "DAI"
+      url: "https://www.adai.ai/dai/2026/"
 
 - date: "2026.02"
   datetime: "2026-02"
