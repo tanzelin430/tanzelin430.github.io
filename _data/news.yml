@@ -65,7 +65,7 @@
   image_fit: "contain"
   image_alt: "SkillsBench benchmark overview"
   description: >-
-    We released [SkillsBench](https://www.skillsbench.ai/), a benchmark for measuring how well Agent Skills work across diverse, expertise-heavy tasks.
+    We released [SkillsBench](https://www.skillsbench.ai/), a benchmark for measuring how well Agent Skills work across diverse, expertise-heavy tasks. Accepted to [**NeurIPS 2026**](https://neurips.cc/Conferences/2026).
   resources:
     - label: "Project"
       url: "https://www.skillsbench.ai/"
@@ -73,6 +73,8 @@
       url: "https://arxiv.org/abs/2602.12670"
     - label: "Code"
       url: "https://github.com/benchflow-ai/skillsbench"
+    - label: "NeurIPS"
+      url: "https://neurips.cc/Conferences/2026"
 
 - date: "2025.11"
   datetime: "2025-11"

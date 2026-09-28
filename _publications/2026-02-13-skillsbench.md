@@ -6,6 +6,7 @@ permalink: /publication/2026-02-13-skillsbench
 excerpt: >-
   Xiangyi Li, Yimin Liu, Wenbo Chen, et al., including **Zelin Tan**.
 date: 2026-02-13
+venue: "NeurIPS 2026"
 paperurl: "https://arxiv.org/abs/2602.12670"
 ---
 
@@ -13,4 +14,4 @@ paperurl: "https://arxiv.org/abs/2602.12670"
 
 SkillsBench evaluates whether structured Agent Skills improve LLM agents on expertise-heavy tasks. Its current release contains 87 tasks across eight domains and finds that curated Skills substantially improve average pass rates across model and agent-harness configurations.
 
-**Links:** [Paper](https://arxiv.org/abs/2602.12670) · [Website](https://www.skillsbench.ai/) · [Code](https://github.com/benchflow-ai/skillsbench)
+**Links:** [Paper](https://arxiv.org/abs/2602.12670) · [Website](https://www.skillsbench.ai/) · [Code](https://github.com/benchflow-ai/skillsbench) · [NeurIPS 2026](https://neurips.cc/Conferences/2026)
