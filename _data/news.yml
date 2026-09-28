@@ -21,7 +21,7 @@
   image_fit: "contain"
   image_alt: "Agents-A1 model overview"
   description: >-
-    We released [Agents-A1](https://huggingface.co/InternScience/Agents-A1), an open 35B MoE agent model that scales the interaction horizon for long-horizon search, engineering, and scientific reasoning.
+    We released [Agents-A1](https://huggingface.co/InternScience/Agents-A1), an open 35B MoE agent model that scales the interaction horizon for long-horizon search, engineering, and scientific reasoning, as a [**public technical report**](https://arxiv.org/abs/2606.30616).
   resources:
     - label: "HF Model"
       url: "https://huggingface.co/InternScience/Agents-A1"

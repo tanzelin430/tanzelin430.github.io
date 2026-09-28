@@ -6,6 +6,7 @@ permalink: /publication/2026-06-29-scaling-the-horizon
 excerpt: >-
   Lei Bai, Zongsheng Cao, Yang Chen, et al., including **Zelin Tan**.
 date: 2026-06-29
+venue: "Public Technical Report"
 paperurl: "https://arxiv.org/abs/2606.30616"
 ---
 
