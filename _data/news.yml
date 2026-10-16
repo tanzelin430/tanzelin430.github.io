@@ -2,6 +2,23 @@
 # image: "/images/news/skt.jpg"
 # Leave `image` blank for a text-only entry.
 
+- date: "2026.09"
+  datetime: "2026-09"
+  image: "/images/news/scienceide-announcement.png"
+  image_fit: "contain"
+  image_alt: "ScienceIDE technical report title and authors"
+  description: >-
+    We released [ScienceIDE](https://aitonomy.org/projects/scienceide), a platform that turns real scientific codebases, research workflows, task goals, and verification criteria into executable, verifiable, and reproducible environments for agent execution, model training, and reinforcement learning.
+  resources:
+    - label: "News"
+      url: "https://phai-labs.com/news/scienceide/"
+    - label: "Report"
+      url: "https://phai-labs.com/papers/scienceide/scienceide-technical-report-v1-2026-09.pdf"
+    - label: "HF Models"
+      url: "https://huggingface.co/collections/AItonomy/scienceide-model-series"
+    - label: "Code"
+      url: "https://github.com/aitofound/ScienceIDE"
+
 - date: "2026.08"
   datetime: "2026-08"
   image: "/images/news/skt-overview.png"
