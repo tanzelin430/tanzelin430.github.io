@@ -4,9 +4,9 @@
 
 - date: "2026.09"
   datetime: "2026-09"
-  image: "/images/news/scienceide-official.png"
+  image: "/images/news/scienceide-official.webp"
   image_fit: "contain"
-  image_alt: "ScienceIDE official scientific workbench workflow"
+  image_alt: "ScienceIDE official key visual"
   description: >-
     We released [ScienceIDE](https://aitonomy.org/projects/scienceide), a platform that turns real scientific codebases, research workflows, task goals, and verification criteria into executable, verifiable, and reproducible environments for agent execution, model training, and reinforcement learning.
   resources:
