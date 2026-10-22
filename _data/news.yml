@@ -2,6 +2,21 @@
 # image: "/images/news/skt.jpg"
 # Leave `image` blank for a text-only entry.
 
+- date: "2026.10"
+  datetime: "2026-10"
+  image: "/images/news/sage-a1-5-overview.png"
+  image_fit: "contain"
+  image_alt: "Sage-A1.5 training pipeline, agentic orchestration, and verification overview"
+  description: >-
+    We released [Sage-A1.5](https://arxiv.org/abs/2610.28578), a 35B MoE agentic model that advances long-horizon problem solving through adaptive capability composition, bringing together agentic orchestration, verification, and open scientific discovery.
+  resources:
+    - label: "Paper"
+      url: "https://arxiv.org/abs/2610.28578"
+    - label: "HF Model"
+      url: "https://huggingface.co/InternScience/Sage-A1.5"
+    - label: "Try It"
+      url: "https://discovery.intern-ai.org.cn/token-plan/home?tabIndex=0"
+
 - date: "2026.09"
   datetime: "2026-09"
   image: "/images/news/scienceide-overview.png"
