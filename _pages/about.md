@@ -10,6 +10,8 @@ Hello! I'm a PhD student at the [University of Science and Technology of China (
 
 Feel free to reach out via [email](mailto:tanzl@mail.ustc.edu.cn). You can also find me on [Zhihu](https://www.zhihu.com/people/tan-zong-tangent) and [Xiaohongshu](https://www.xiaohongshu.com/user/profile/644b4225000000001f031d83).
 
+My CV is available in [English]({{ "/files/Zelin_Tan_CV.pdf" | relative_url }}) and [中文]({{ "/files/Zelin_Tan_CV_zh.pdf" | relative_url }}).
+
 News
 ====
 
